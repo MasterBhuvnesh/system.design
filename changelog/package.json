@@ -1,11 +1,12 @@
 {
-  "name": "magicui-changelog",
+  "name": "system-design-changelog",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "dev": "fumadocs-mdx && next dev --turbopack",
     "build": "fumadocs-mdx && next build",
     "start": "next start",
+    "export": "next export",
     "postinstall": "fumadocs-mdx",
     "lint": "next lint",
     "lint:fix": "next lint --fix",

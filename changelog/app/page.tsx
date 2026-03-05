@@ -4,7 +4,6 @@ import { createMDXSource } from "fumadocs-mdx"
 import { ThemeToggle } from "@/components/theme-toggle"
 import { useMemo } from "react"
 import { formatDate } from "@/lib/utils"
-import { siteConfig } from "@/lib/site"
 
 const source = loader({
   baseUrl: "/docs",

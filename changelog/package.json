@@ -1,6 +1,6 @@
 {
   "name": "system-design-changelog",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "private": true,
   "scripts": {
     "dev": "fumadocs-mdx && next dev --turbopack",

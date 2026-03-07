@@ -68,6 +68,7 @@ Your changelog content here...
 - `pnpm build` - Build for production
 - `pnpm start` - Start production server
 - `pnpm lint` - Run linting
+- `pnpm deploy` - Deploy to production ( github pages)
 
 ## Tech Stack
 
@@ -76,14 +77,6 @@ Your changelog content here...
 - **Styling**: Tailwind CSS
 - **UI**: shadcn/ui components
 - **TypeScript**: Full type safety
-
-## Deployment
-
-Deploy to any Next.js compatible platform:
-
-- [Vercel](https://vercel.com) (recommended)
-- [Netlify](https://netlify.com)
-- [Cloudflare Pages](https://pages.cloudflare.com)
 
 ## License
 

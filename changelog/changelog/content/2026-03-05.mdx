@@ -6,42 +6,41 @@ tags: ["System Design", "Architecture"]
 version: "0.1"
 ---
 
-![UX Improvements](https://images.unsplash.com/photo-1680016661694-1cd3faf31c3a?q=80&w=2874&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)
+<img 
+  src="/system.design/images/workflow.png" 
+  alt="Workflow"
+  class="block dark:hidden"
+/>
 
-- **Redesigned interface** with cleaner, more intuitive navigation
-- **Enhanced accessibility** with improved keyboard navigation and screen reader support
-- **Streamlined workflows** for faster task completion
-- **Responsive design** optimized for all device sizes
+<img 
+  src="/system.design/images/workflow.dark.png" 
+  alt="Workflow"
+  class="hidden dark:block"
+/>
+- **Designed the architecture and data flow** for the automated agentic AI content generation system
+- **Dual-model strategy** — integrating AWS Bedrock alongside a free-tier service to balance performance and cost
+- **Serverless infrastructure** — since the AI runs once daily, serverless significantly reduces operational costs
+- **Monitoring dashboard** planned to track token usage and end-to-end pipeline execution time
+- **Free model integration** not yet scoped — AWS Bedrock will be used in the interim
 
 <Accordion type="multiple" className="w-full not-prose">
   <AccordionItem value="item-1">
-    <AccordionTrigger>Features</AccordionTrigger>
+    <AccordionTrigger>Today's Tasks</AccordionTrigger>
     <AccordionContent className="flex flex-col gap-4 text-balance">
       <ul className="list-disc space-y-2 pl-4">
-        <li>
-          <strong>Redesigned navigation menu</strong> with improved organization
-          and visual hierarchy
-        </li>
-        <li>
-          Enhanced accessibility features with full keyboard navigation support
-        </li>
-        <li>High contrast mode for users with visual impairments</li>
-        <li>Optimized touch targets for better mobile interaction</li>
-        <li>Enhanced swipe gestures and mobile-specific navigation</li>
+        <li>Set up changelog CI/CD pipeline triggered by Git tags</li>
+        <li>Configure the architecture and finalise the data flow</li>
+        <li>Design the schema for the NoSQL database</li>
       </ul>
     </AccordionContent>
   </AccordionItem>
   <AccordionItem value="item-2">
-    <AccordionTrigger>Bug Fixes</AccordionTrigger>
+    <AccordionTrigger>Done</AccordionTrigger>
     <AccordionContent className="flex flex-col gap-4 text-balance">
       <ul className="list-disc space-y-2 pl-4">
-        <li>
-          Fixed inconsistent button placement across different screen sizes
-        </li>
-        <li>Resolved color contrast issues affecting readability</li>
-        <li>Corrected tab order problems in form navigation</li>
-        <li>Fixed device orientation change handling on mobile devices</li>
-        <li>Improved ARIA label compatibility with screen readers</li>
+        <li>Architecture and system design completed</li>
+        <li>Database configured and seed script built</li>
+        <li>CI/CD pipeline for changelog set up and working</li>
       </ul>
     </AccordionContent>
   </AccordionItem>
